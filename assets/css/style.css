@@ -1,0 +1,20 @@
+form{
+    background-image: url("https://i.stack.imgur.com/jGlzr.png");
+    text-align: center;
+    color: yellow;
+}
+.jumbotron{
+    text-align: center;
+   background-color: #FFD700;
+   height: 170px;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding-top: 50px;
+    height: 100px;
+}
+#show-number{
+    text-align: center;
+
+}

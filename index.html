@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Original Trivia Game</h1>
+    <div class="lead">Super cool trivia game</div>
+  </div>
+</div>
+
+<div id="show-number"></div>
+
+
+  
+
+  <form name="myform">
+    Q1. True or false? 12% of the US population commited over 50% of the violent crime( according to the federal bureau of justice from 1980-2008)?<br>
+    <input type="radio" name="q1" value="a">True</br>
+    <input type="radio" name="q1" value="b">No way</br><br>
+
+    Q2. How many genders are there?<br>
+    <input type="radio" name="q2" value="a">0<br>
+    <input type="radio" name="q2" value="b">2</br>
+    <input type="radio" name="q2" value="c">72<br></br>
+    
+    Q3. is this a question?<br>
+    <input type="radio" name="q3" value="a">yes<br>
+    <input type="radio" name="q3" value="b">no<br></br>
+
+    Q4. Will I one day be the Best web developer?<br>
+    <input type="radio" name="q4" value="a">yes!<br>
+    <input type="radio" name="q4" value="b">no<br></br>
+
+
+    Q5.How many tates that fought for the North in the U.S. Civil War had slavery?<br>
+    <input type="radio" name="q5" value="a">0<br>
+    <input type="radio" name="q5" value="b">1<br>
+    <input type="radio" name="q5" value="c">4<br>
+    <input type="radio" name="q5" value="d">3<br></br>
+
+
+
+
+    <input type="button" value="submit" onclick="check()">
+  </form>
+  <footer>Copyright Grant Ferrell</footer>
+</body>
+
+</html>
